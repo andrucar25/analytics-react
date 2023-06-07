@@ -4,8 +4,6 @@ import ReactGA from 'react-ga4';
 
 function App() {
   ReactGA.initialize('G-JSRM3L37B7');
-  // ReactGA.set({ page: window.location.pathname });
-  ReactGA.pageview(window.location.pathname);
 
   return (
     <div className="App">
