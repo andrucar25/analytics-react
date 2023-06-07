@@ -4,7 +4,7 @@ import ReactGA from 'react-ga';
 
 function App() {
   ReactGA.initialize('G-JSRM3L37B7');
-  ReactGA.set({ page: window.location.pathname });
+  // ReactGA.set({ page: window.location.pathname });
   ReactGA.pageview(window.location.pathname);
 
   return (
