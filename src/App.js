@@ -1,9 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
-import ReactGA from 'react-ga4';
 
 function App() {
-  ReactGA.initialize('G-JSRM3L37B7');
 
   return (
     <div className="App">
